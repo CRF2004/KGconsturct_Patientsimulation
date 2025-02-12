@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Bartonella henselae",
+        "label": "Pathogen",
+        "description": "A species of Bartonella that can cause cat scratch disease and other infections."
+    },
+    {
+        "name": "Bartonella quintana",
+        "label": "Pathogen",
+        "description": "A species of Bartonella that can cause infections, including endocarditis."
+    },
+    {
+        "name": "Bartonella bacilliformis",
+        "label": "Pathogen",
+        "description": "A species of Bartonella that can cause infections, including cutaneous vasoproliferative lesions and bacteremia."
+    },
+    {
+        "name": "Cutaneous Vasoproliferative Lesions",
+        "label": "Clinical Finding",
+        "description": "Lesions induced by Bartonella spp. infections."
+    },
+    {
+        "name": "Bacteremia",
+        "label": "Clinical Finding",
+        "description": "Presence of Bartonella spp. in the blood."
+    },
+    {
+        "name": "Endocarditis",
+        "label": "Disease",
+        "description": "Infection of the heart valves."
+    },
+    {
+        "name": "Systemic Vasoproliferative Lesions",
+        "label": "Clinical Finding",
+        "description": "Vasoproliferative lesions affecting various organs including the brain, bone, bone marrow, lymph node, skeletal muscle, and mucosal surfaces."
+    },
+    {
+        "name": "Antineutrophil Cytoplasmic Antibodies (ANCAs)",
+        "label": "Lab Test Result",
+        "description": "Autoantibodies associated with certain types of vasculitis."
+    },
+    {
+        "name": "Immune Complex-Mediated Glomerulonephritis (GN)",
+        "label": "Disease",
+        "description": "A type of glomerulonephritis caused by immune complexes."
+    },
+    {
+        "name": "Segmental Necrotizing and Crescentic Lesions",
+        "label": "Pathology",
+        "description": "Histological features observed in renal biopsies of B. henselae native-valve endocarditis with associated GN."
+    },
+    {
+        "name": "Inflammatory Granulomas with Microabscesses",
+        "label": "Pathology",
+        "description": "Histological findings in lymph nodes during CSD, characterized by inflammation, microabscesses, histiocytes, occasional giant cells, lymphocytes, and fibrosis."
+    },
+    {
+        "name": "Necrotizing Lymphadenitis",
+        "label": "Disease",
+        "description": "Lymph node inflammation with epithelioid/giant cells and aspects of vasculitis."
+    },
+    {
+        "name": "Wegener’s Granulomatosis",
+        "label": "Disease",
+        "description": "A type of vasculitis involving the upper and lower respiratory tract and kidneys."
+    },
+    {
+        "name": "Hypersensitivity Vasculitis",
+        "label": "Disease",
+        "description": "A type of vasculitis caused by hypersensitivity reactions."
+    },
+    {
+        "name": "Ulcerative Skin Involvement",
+        "label": "Clinical Finding",
+        "description": "Skin lesions with ulcerative characteristics."
+    },
+    {
+        "name": "Epithelioid/Giant Cells",
+        "label": "Cell Type",
+        "description": "Cells observed in the lymph node histology."
+    },
+    {
+        "name": "Epithelioid Cells",
+        "label": "Cell Type",
+        "description": "Cells observed in the lymph node histology."
+    },
+    {
+        "name": "Giant Cells",
+        "label": "Cell Type",
+        "description": "Cells observed in the lymph node histology."
+    },
+    {
+        "name": "Neutrophilic Leukocytosis",
+        "label": "Lab Test Result",
+        "description": "Increased number of neutrophils in the blood."
+    },
+    {
+        "name": "Elevated Acute-Phase Reactants",
+        "label": "Lab Test Result",
+        "description": "Increased levels of proteins produced in response to inflammation."
+    },
+    {
+        "name": "Ulcerative Rhagadiform Lesion",
+        "label": "Clinical Finding",
+        "description": "A type of ulcerative skin lesion."
+    },
+    {
+        "name": "Multiple Purple Skin Areas",
+        "label": "Clinical Finding",
+        "description": "Multiple areas of skin with a purplish color suggestive of vasculitic lesions."
+    },
+    {
+        "name": "Abdominal and Umbilical Area",
+        "label": "Anatomical Location",
+        "description": "An anatomical location in the abdomen around the navel."
+    }
+]

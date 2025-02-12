@@ -1,0 +1,179 @@
+```json
+[
+    {
+        "source": "Bartonella henselae",
+        "target": "cutaneous vasoproliferative lesions",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Bartonella henselae can induce cutaneous vasoproliferative lesions.",
+        "relationship_strength": 7
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "bacteremia",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Bartonella henselae can induce bacteremia.",
+        "relationship_strength": 7
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "endocarditis",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Bartonella henselae infections can result in endocarditis.",
+        "relationship_strength": 7
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "glomerulonephritis",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Bartonella henselae infections can result in glomerulonephritis.",
+        "relationship_strength": 7
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "cat scratch disease",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Bartonella henselae can induce cat scratch disease.",
+        "relationship_strength": 7
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "vasculitis",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Bartonella henselae can induce vasculitis.",
+        "relationship_strength": 7
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "immunocompetent patients",
+        "relationship_label": "AFFECTS",
+        "relationship_description": "Granulomatous reactions are mainly observed in immunocompetent patients infected with Bartonella henselae.",
+        "relationship_strength": 5
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "endothelial dysfunction",
+        "relationship_label": "CAUSES",
+        "relationship_description": "Bartonella henselae infection can cause endothelial dysfunction.",
+        "relationship_strength": 6
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "necrotizing lymphadenitis",
+        "relationship_label": "CAUSES",
+        "relationship_description": "Histopathological findings in our patient included necrotizing lymphadenitis with epithelioid/giant cells and aspects of vasculitis.",
+        "relationship_strength": 6
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "vasculitic disease",
+        "relationship_label": "CAUSES",
+        "relationship_description": "The histology was consistent with vasculitic disease, leading to an initial presumptive diagnosis of Wegener’s granulomatosis.",
+        "relationship_strength": 6
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "skin involvement",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Skin involvement was a main feature of the patient's condition.",
+        "relationship_strength": 4
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "lymphadenopathy",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Lymphadenopathy was a main feature of the patient's condition.",
+        "relationship_strength": 4
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "fever",
+        "relationship_label": "INDUCES",
+        "relationship_description": "Fever was a main feature of the patient's condition.",
+        "relationship_strength": 4
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "anti-Bartonella serology",
+        "relationship_label": "INVOLVES",
+        "relationship_description": "Incidentally tested Bartonella serology was positive.",
+        "relationship_strength": 3
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "disimmune disease",
+        "relationship_label": "ASSOCIATED_WITH",
+        "relationship_description": "The positivity of anti-Bartonella was initially considered a nonspecific finding associated with a disimmune disease.",
+        "relationship_strength": 3
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "antimicrobial therapy",
+        "relationship_label": "RESPONSE_TO",
+        "relationship_description": "The response to antimicrobial therapy was significant.",
+        "relationship_strength": 5
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "cat scratch disease",
+        "relationship_label": "ASSOCIATED_WITH",
+        "relationship_description": "Cutaneous vasculitis (hypersensitivity vasculitis) could disclose cat scratch disease.",
+        "relationship_strength": 3
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "endocarditis",
+        "relationship_label": "EXCLUDES",
+        "relationship_description": "Our patient did not have Bartonella henselae endocarditis.",
+        "relationship_strength": 4
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "immunosuppressive therapy",
+        "relationship_label": "REFRACTORY_TO",
+        "relationship_description": "The clinical picture was refractory to immunosuppressive therapy with steroids.",
+        "relationship_strength": 4
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "ANCA-positive SBE",
+        "relationship_label": "DISTINGUISH_FROM",
+        "relationship_description": "It is crucial to distinguish an ANCA-positive SBE from an ANCA-associated vasculitis with endocardial compromise.",
+        "relationship_strength": 4
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "native-valve endocarditis",
+        "relationship_label": "ASSOCIATED_WITH",
+        "relationship_description": "The majority of reported cases of Bartonella endocarditis affect native valves.",
+        "relationship_strength": 3
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "glomerulonephritis",
+        "relationship_label": "ASSOCIATED_WITH",
+        "relationship_description": "Renal biopsy findings in B. henselae native-valve endocarditis with associated glomerulonephritis revealed a pattern of immune complex-mediated GN.",
+        "relationship_strength": 3
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "vasculitic-like illness",
+        "relationship_label": "ASSOCIATED_WITH",
+        "relationship_description": "ANCA-positive GN and vasculitic-like illness in patients with underlying endocarditis have been well described.",
+        "relationship_strength": 3
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "histopathological findings",
+        "relationship_label": "INCLUDES",
+        "relationship_description": "Histopathological findings in our patient included necrotizing lymphadenitis with epithelioid/giant cells and aspects of vasculitis.",
+        "relationship_strength": 3
+    },
+    {
+        "source": "Bartonella henselae",
+        "target": "histiocytes",
+        "relationship_label": "INVOLVES",
+        "relationship_description": "Typical histological features of lymph nodes during CSD are inflammatory granulomas with microabscesses surrounded by histiocytes.",
+        "relationship_strength": 3
+    }
+]
+```

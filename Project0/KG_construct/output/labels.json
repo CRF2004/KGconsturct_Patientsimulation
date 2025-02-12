@@ -1,0 +1,36 @@
+[
+    {
+        "node_labels": [
+            "Person",
+            "Symptom",
+            "Laboratory Test",
+            "Pathogen",
+            "Anatomical Location",
+            "Diagnostic Imaging",
+            "Risk Factor",
+            "Treatment",
+            "Drug",
+            "Exposure",
+            "Pathology",
+            "Clinical Finding",
+            "Facility",
+            "Disease",
+            "Complication",
+            "Condition",
+            "Cell Type",
+            "Laboratory Test Result",
+            "Study Design",
+            "Procedure",
+            "Test Result",
+            "Test",
+            "Lab Test Result",
+            "Diagnosis",
+            "Drug Mechanism"
+        ],
+        "relationship_types": [
+            "Has_symptom",
+            "Cause_of",
+            "Has_treatment"
+        ]
+    }
+]
