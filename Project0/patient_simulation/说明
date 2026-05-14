@@ -1,14 +1,44 @@
-索引：：
-提取case图为三元组和实体列表 -> type+name  :embedding -> embedding-id存储
-检索::
-embedding-id 相似度检索 -> top2查询2跳子图 -> prompt给llm生成回答。
+# patient_simulation 说明
 
+## 作用
 
-尝试了一下直接将与病人节点相连的三元组直接一起交给llm。
-生成的回答很混乱
+这个目录负责基于已有病例图谱进行患者模拟问答。
 
-还是先做一下匹配，将user问的内容解析然后与三元组信息做匹配，筛选top2三元组prompt给llm进行回答吧
+流程：
 
+1. 从 Neo4j 读取病人相关三元组和实体
+2. 将用户问题拆成实体/关系需求
+3. 做 embedding 匹配
+4. 将匹配到的图谱信息注入 prompt
+5. 由本地大模型生成回答
 
+## 主要入口
 
-变量：embedding模型 问句信息提取prompt，，相似度阈值，role_play_prompt
+- `main.py`：患者对话主入口
+- `dialog.py` / `dialog2.py`：对话生成逻辑
+- `query.py`：从 Neo4j 读取图谱内容
+
+## 重要文件
+
+- `embedding.py`：实体向量化和相似度匹配
+- `embedding_call.py`：embedding 模型封装
+- `neo4j_access.py`：Neo4j 连接
+- `process_output.py`：解析问句抽取结果
+- `llm_prompt/prompt.py`：问答 prompt
+
+## 配置
+
+以下内容通过环境变量读取：
+
+- `MODEL_PATH`
+- `MODEL_DEVICE`
+- `CUDA_VISIBLE_DEVICES`
+- `NEO4J_URI`
+- `NEO4J_USER`
+- `NEO4J_PASSWORD`
+
+## 运行前提
+
+- Neo4j 中已经有可查询的数据
+- 本地模型可用
+- 词向量文件或 embedding 资源已准备好

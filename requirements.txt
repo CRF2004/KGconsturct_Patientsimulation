@@ -1,0 +1,9 @@
+numpy
+pandas
+py2neo
+pymupdf
+Pillow
+transformers
+torch
+fasttext
+python-dotenv
